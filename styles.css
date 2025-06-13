@@ -1601,14 +1601,7 @@ section {
 /* Mobile View (Under 768px) */
 @media (max-width: 768px) {
     .floating-nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-        position: relative;
-        width: 92vw;
-        margin-left: 20px;
-        position: sticky;
+        display: none;
     }
 
     .nav-logo {
@@ -1617,7 +1610,6 @@ section {
         font-size: 1.5rem;
         font-weight: bold;
         z-index: 1001;
-        background: linear-gradient(90deg, var(--primary), var(--secondary));
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -1645,11 +1637,12 @@ section {
         box-shadow: 0 10px 15px rgba(0,0,0,0.1);
     }
 
+
     .nav-link {
         width: 100%;
         text-align: center;
         padding: 1rem 0;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.234);
     }
 
     .nav-social {
